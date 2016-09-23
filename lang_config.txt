@@ -1,0 +1,2 @@
+en: English: Language
+es: español: idioma
