@@ -83,6 +83,17 @@ function formatPage(pageName, langId) {
   })
   document.title = $('h1:first').text() || "UM2"
   $('table').addClass('table table-bordered')
+
+  //处理图片，如果图片位于文字中间则设置图片inline显示，否则block并居中显示于段落中
+
+  $('p').each(function(){
+    var $this = $(this);
+    if($.trim($this.text())!=''){
+      $this.removeClass('ds-block').find('img').addClass('inline-img')
+    }else{
+      $this.addClass('ds-block')
+    }
+  })
 }
 
 $(function() {

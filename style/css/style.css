@@ -4,7 +4,20 @@
 }
 
 img.img-responsive {
-  display: inline;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  clear:both;
+}
+
+.ds-block{
+	display: block;
+	text-align: center;
+}
+
+img.inline-img{
+	display: inline;
+	height: 40px;
 }
 
 #langSelect{
