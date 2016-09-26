@@ -1,0 +1,26 @@
+<style>
+h4 {
+  margin-top: 20px;
+}
+
+blockquote {
+  background: #eee;
+  display: none;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+</style>
+<script>
+pageInit = function() {
+  $('h4').prepend('● ').off('click').on('click', function() {
+    var $content = $(this).next('blockquote');
+    if ($content.hasClass('show')) {
+      $content.removeClass('show');
+    } else {
+      $content.addClass('show');
+    }
+  });
+};
+</script>
+<div id="pageContainer"></div>
