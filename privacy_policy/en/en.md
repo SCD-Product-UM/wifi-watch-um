@@ -1,10 +1,5 @@
 # TERMS AND CONDITIONS OF USE
 
-header 1 | header 2
----|---
-row 1 col 1 | row 1 col 2
-row 2 col 1 | row 2 col 2
-
 These Terms and Conditions of use tell you how you may use the MOVETIME and online service (“Service”) to access.
 
 This Service is published by TCT Mobile International Limited hereinafter referred to as “TCT”, registered at Room 19 12 A, Tower 3, China Hong Kong City, 33 Canton Road, Tsim Sha Tsui, Kowloon,  Hong-Kong.

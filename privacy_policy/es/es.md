@@ -2,8 +2,6 @@
 
 ## Introducción
 
-![image](loader.gif)
-
 Nosotros, TCT Mobile (en lo sucesivo referido como "nosotros", "nuestro/a", o "TCT") respetamos sus preocupaciones en materia de privacidad. En esta Política de privacidad se explican nuestras políticas y procedimientos relativos a la información personal y de otro tipo acerca de nuestros clientes. También tiene como objetivo proporcionarle comodidad y confianza en la manera en que recogemos, utilizamos, divulgamos y protegemos la información personal y de otro tipo que recogemos o que usted nos proporciona. En esta Política de privacidad también se explica cómo puede ponerse en contacto con nosotros si tiene alguna pregunta o preocupación acerca de su información personal.
 
 ## Alcance 
