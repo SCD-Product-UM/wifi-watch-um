@@ -1,72 +1,90 @@
-.container {
-  margin: 70px auto 10px;
-  max-width: 960px;
-}
-.navbar{
-  margin: 0 auto;
-  max-width: 960px;
-  border-width: 0 1px 1px;
-}
-img.img-responsive {
-  display: inline;
+body {
+  color: #333;
+  font-family: AG-Light, 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Hiragino Sans GB W3', 'WenQuanYi Micro Hei', sans-serif!important;
 }
 
-#langSelect {
-  width: 200px;
+.x-container {
+  width: 100%;
+  padding: 20px 65px
 }
 
-#langSelectBox {
-  margin: 8px auto;
-  max-width: 300px;
+.help-nav {
+  width: 240px;
+  float: left;
+  border-top: 1px solid #eee;
+  padding: 0 12px;
+  color: #999;
 }
 
-.table {
-  width: auto;
+.title img {
+  height: 50px;
 }
 
-
-/* index */
-
-.index {
-  margin: 10px auto;
-  border: 1px solid #ddd;
+.head-title {
+  display: inline-block;
+  border-left: 1px solid #aeabab;
+  color: #666;
+  font-size: 28px;
+  padding: 0 16px;
+  margin-left: 12px;
+  height: 50px;
+  line-height: 50px;
 }
 
-.more {
-  margin: 10px auto;
-  border: 1px solid #ddd;
-}
-
-.mobile-header {
-  background: #eee;
-  padding: 6px 20px;
-  border-bottom: 1px solid #fff;
-  text-align: center;
-}
-
-.app-header {
-  background: #eee;
-  padding: 8px 20px;
-}
-
-.index .list-group-item,.more .list-group-item {
-  border-right: none;
-  border-left: none;
-}
-
-.list-group-item:first-child {
+.help-nav .list-group-item:first-child {
+  border-top: none;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
-.list-group-item:last-child {
-  margin-bottom: 0;
+.help-nav .list-group-item:last-child {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
-.side-menu{
+.help-nav .list-group-item {
+  border-right: none;
+  border-left: none;
 }
 
-.more-container{
+.help-main {
+  margin-left: 240px;
+  position: relative;
+  padding: 0px 30px 30px;
+  display: block;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+  color: #999;
+  line-height: 2;
+}
+
+.help-footer {
+  color: #a6b0b3;
+  padding-bottom: 20px;
+}
+.lang-box{
+  height: 55px;
+  padding:32px 20px;
+  text-align: right;
+}
+
+.lang-box #langSelect{
+  maring-top:20px;
+}
+
+@media (max-width:768px) {
+  .x-container {
+    padding: 20px;
+  }
+  .help-nav {
+    padding: 0;
+    width: 100%;
+  }
+  .help-main {
+    width: 100%;
+    position: static;
+    margin-left: 0px;
+    padding: 0px 10px 10px;
+    border-left: none;
+  }
 }

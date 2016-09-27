@@ -1,6 +1,6 @@
 var pageInit = function() {
 
-}
+};
 
 function reqQuery(name) {
   var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
@@ -78,7 +78,7 @@ function loadLangConfig(pageName, langId) {
 }
 
 function formatPage(pageName, langId) {
-  $('img').each(function() {
+  $('#container img').each(function() {
     $this = $(this);
     var src = $this.attr('src');
     var enImg = pageName + '/en/' + src;

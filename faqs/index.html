@@ -1,19 +1,28 @@
 <style>
+h3{
+  font-size: 16px;
+}
 h4 {
   margin-top: 20px;
+  font-weight: 200;
+  font-size: 14px;
 }
 
 blockquote {
-  background: #eee;
+  background: #efeeee;
   display: none;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 300;
+  color: #666;
 }
 </style>
 <script>
 pageInit = function() {
-  $('h4').prepend('● ').off('click').on('click', function() {
+  $('#container h4').prepend('● ').off('click').on('click', function() {
     var $content = $(this).next('blockquote');
     if ($content.hasClass('show')) {
       $content.removeClass('show');

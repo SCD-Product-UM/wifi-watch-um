@@ -1,0 +1,19 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #26c7ed;
+  font-weight: 200;
+  line-height: 1.1;
+}
+
+h1{
+  text-align: center;
+  margin:20px auto 40px;
+}
+
+
+#pageContainer{
+  border-top: 1px solid #eee;
+}
