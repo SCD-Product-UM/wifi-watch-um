@@ -86,7 +86,7 @@ function formatPage(pageName, langId) {
       .addClass('img-responsive')
       .attr('onerror', "this.src='" + enImg + "';this.onerror='return true'");
   });
-  document.title = $('h1:first').text() || "UM2";
+  document.title = $('h1:first').text() || "";
   $('table').addClass('table table-bordered');
 }
 
