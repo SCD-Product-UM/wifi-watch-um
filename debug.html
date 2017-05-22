@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-       <a href="comgooglemaps://?saddr=Google,+1600+Amphitheatre+Parkway,+Mountain+View,+CA+94043&daddr=Google+Inc,+345+Spear+Street,+San+Francisco,+CA&center=37.422185,-122.083898&zoom=10">map app</a>
-    </body>
-</html> 
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript">
+    var u = navigator.userAgent;
+    var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+    var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    var shebeiType = ""
+    if (isAndroid) {
+      shebeiType = "Android"
+    }
+    if (isiOS) {
+      shebeiType = "iOS"
+    }
+    alert(shebeiType);
+
+  </script>
+</head>
+
+<body>
+  <a href="comgooglemaps://?saddr=Google,+1600+Amphitheatre+Parkway,+Mountain+View,+CA+94043&daddr=Google+Inc,+345+Spear+Street,+San+Francisco,+CA&center=37.422185,-122.083898&zoom=10">map app</a>
+</body>
+
+</html>
